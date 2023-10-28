@@ -1,3 +1,26 @@
+# Notice:
+
+The original repo need install `negbio` package, and due to some dependent packages is out of time, some bugs happens. This repo have fix the issue.
+
++ Requirements:
+
+See `requirements.txt`
+
++ Install `GENIA+PubMed`
+
+```python
+>>> from bllipparser import RerankingParser
+>>> RerankingParser.fetch_and_load('GENIA+PubMed')
+```
+
++ Run th code:
+
+```Shell
+python label.py --reports_path reports_path
+```
+
+---
+
 # chexpert-labeler
 CheXpert NLP tool to extract observations from radiology reports.
 
